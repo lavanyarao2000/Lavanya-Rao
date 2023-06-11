@@ -1,0 +1,307 @@
+/* CSS */
+
+body {
+    background-color: linear-gradient(to right, rgb(255, 0, 119) , rgba(255, 213, 0, 0.958));
+    width: 100vw;
+  
+  }
+  
+  #top{
+    color:rgb(245, 10, 10);
+    text-align:center;
+    font-size:46px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  #top1{
+    text-align:center;
+    color:black;
+    font-size:21px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  
+  #navbar img{
+    display:block;
+    width: 40px;
+    height:40px;
+    margin:auto;
+    margin-bottom: 3px;
+  }
+  
+ 
+  #navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Times New Roman', Times, serif;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  
+  
+  #navcontent{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    margin-block: 0px;
+    margin-left: 20%;
+  }
+  
+  #toright{
+    margin-left: 20%;
+    margin-right: 0px;
+  }
+  
+ 
+  ul li{
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+  }
+  ul li a{
+    padding: 1px;
+    color:rgb(78, 72, 72);
+    text-decoration: none;
+    border-radius:10px;
+    font-size: large;
+  }
+  
+  ul li a,
+  ul li a:after,
+  ul li a:before {
+  transition: all .5s;
+  }
+  ul li a:hover{
+    background-color: rgba(89, 61, 61, 0.16);
+    text-shadow: 4px;
+    border-radius: 10px;
+    color: rgba(16, 15, 16, 0.7);
+    font-weight: bold;
+  }
+  
+ 
+  #contain{
+    height:400px;
+    background-image: linear-gradient(to right,  rgb(255, 0, 119) , rgba(255, 213, 0, 0.958));
+  
+  }
+  #container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;    
+  }
+  
+  
+  #container1::before{
+    content:'';
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:43vh;
+    top:0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right:0px;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 0.89;
+    /* border: 2px solid black;     */
+  }
+  
+  #row1{
+   color: black;
+    font-weight:bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  .btn{
+    margin-top:15px;
+    border-radius:25px;
+    color: rgba(0, 0, 0, 0.403);
+    background-color:rgba(212, 191, 208, 0.27);
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .btn:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.918);
+  }
+  
+  
+  #container3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50%;
+    position: absolute;
+    top:10%;
+    z-index: 3;
+  }
+  #row2{
+    width:100%;
+    height:20vh;
+    box-shadow: 2px,0px 0px 0px;
+    margin-top:40px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: left;
+    margin-right: 10px;
+    background-color: rgba(233, 18, 168, 0.4);
+    color:rgb(255, 255, 255);
+  }
+  
+  #textinside{
+    margin: 4%;
+  }
+  #row2::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+    padding: 0%;
+  }
+  #row3{
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top:51px;
+    margin-bottom: 51px;
+    margin-left: 38px;
+    border-radius: 40px;
+  }
+  #row3::before{
+    content: '';
+    background-color: rgba(221, 78, 166, 0.818);
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+  }
+  
+  #top3{
+    margin-top:15px;
+    border-radius:15px;
+    background-color:rgba(255, 255, 255, 0);
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    font: size 30px;
+  }
+  #span { 
+    display: flex; 
+    justify-content: center
+  }
+  #container{
+    background-image: linear-gradient(to right, rgb(255, 0, 119) , rgba(255, 213, 0, 0.958));
+  }
+  #container4{
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 300px 200px;
+    margin: 70px;
+    justify-content: center;
+    justify-content: space-evenly;
+    grid-row-gap: 0px;
+    margin-top: 0;
+    margin-bottom: 0px;
+  
+  }  
+  
+  #row4{
+    grid-column: 1;
+    border-radius: 2px 40px;
+    background-color: #fff;
+    height: 110%;
+    text-align: center;
+  }
+  #row5{
+    grid-column: 2;
+    border-radius: 2px 40px;
+    background-color: #fff;
+    height: 110%;
+    text-align: center;}
+  #row6{
+    grid-column: 3;
+    border-radius: 2px 40px;
+    background-color: #fff;
+    height: 110%;
+    text-align: center;}
+  
+  #foodname{
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+  }
+  
+  #description{
+    margin: 0px;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 2%;
+  }
+  
+  
+  #food{
+    border-radius:2px 40px 2px 2px;
+    align-items: start;
+    vertical-align: sub;
+    position: relative;
+    width: 90%;
+    height: 60%;
+    margin: 4%;
+  }
+  
+  #row7{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    grid-row: 2;
+    grid-column: 2 ;
+    margin-top: 30%;
+    font-size-adjust: 0.58;
+  }
+  @media screen and (min-width:900px)  {
+    #navcontent {
+      margin:0 20%;
+    }
+    
+    #container4{
+      grid-template-columns: 35% 35% 35%;
+      grid-column-gap: 28px;
+  }
+  #container1::before {
+    height: 48vh;
+  }
+  }

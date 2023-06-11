@@ -1,0 +1,367 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  #top {
+    color: rgb(245, 10, 10);
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  #top1 {
+    text-align: center;
+    color: black;
+    font-size: 21px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  /* Navigation bar styling */
+  /* Navbar image styling */
+  #navbar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 3px;
+  }
+  
+  /* Navbar Functionality */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  /* Navbar content functionality */
+  #navcontent {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 20%; */
+  }
+  
+  #navcontent1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  
+  /* Navbar content styling */
+  ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  
+  ul li a {
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  /* website background image designing */
+  #contain {}
+  
+  #container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+  }
+  
+  /* Setting the background image using before pseudo selector */
+  #container1::before {
+    content: '';
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+  }
+  
+  #row1 {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    margin-top: 15px;
+    border: 3px solid rgb(236, 74, 201);
+    border-radius: 15px;
+    background-color: rgb(255, 0, 179);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 179);
+  }
+  
+  #container3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 55%;
+  }
+  
+  #row2 {
+    width: 26vw;
+    height: 20vh;
+    box-shadow: 2px, 0px 0px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    text-align: justify;
+    position: left;
+    margin-right: 138px;
+    background-color: rgba(233, 18, 168, 0.4);
+    color: rgb(255, 255, 255);
+  }
+  
+  #row2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+    padding: 0%;
+  }
+  
+  #row3 {
+    position: relative;
+    width: 24vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    margin-left: 38px;
+    border-radius: 40px;
+  }
+  
+  #row3::before {
+    content: '';
+    background-color: rgba(221, 78, 166, 0.818);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+  }
+  
+  #top3 {
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    font: size 30px;
+    background-image: linear-gradient(to right, rgb(255, 0, 119), rgba(255, 213, 0, 0.958));
+    background-attachment: fixed;
+  }
+  
+  #span {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #container {
+    background-image: linear-gradient(to right, rgb(255, 0, 119), rgba(255, 213, 0, 0.958));
+  }
+  
+  #container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 70px;
+  }
+  
+  #row4 {
+    width: 12vw;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px 50px;
+    background-color: #fff;
+  }
+  
+  img {
+    border-radius: 15px 50px 30px 30px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  #food {
+    top: -20%;
+    border-radius: 5px 50px 5px 5px;
+    align-items: start;
+    vertical-align: sub;
+    position: relative;
+  }
+  
+  #row5 {
+    width: 12vw;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px 50px;
+    background-color: #fff;
+  }
+  
+  #row6 {
+    width: 12vw;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px 50px;
+    background-color: #fff;
+  }
+  
+  /* Designing the footer */
+  footer {
+    text-align: center;
+  }
+  
+  #row7 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu Mono', monospace;
+    font-size-adjust: 0.58;
+    background-image: linear-gradient(to right, rgb(255, 0, 119), rgba(255, 213, 0, 0.958));
+  }
+  
+  /* Designing Contact Us */
+  #ContactUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  .form-shape input,
+  .form-shape select,
+  .form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+  }
+  
+  /* Changing the color of placeholder */
+  ::placeholder {
+    color: gray;
+  }
+  
+  /* Making the webpage responsive using media queries */
+  @media only screen and (max-width: 1024px) {
+    #row4 {
+      width: 42vw;
+    }
+    #row5 {
+      width: 45vw;
+    }
+    #row6 {
+      margin-top: 20px;
+      width: 90vw;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 781px) {
+    #row4 {
+      width: 84vw;
+      margin: auto;
+      margin-left: 22px;
+    }
+    #row5 {
+      width: 84vw;
+      margin: auto;
+      margin-top: 20px;
+      margin-left: 22px;
+    }
+    #row6 {
+      width: 84vw;
+      margin: auto;
+      margin-top: 20px;
+      margin-left: 22px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #row4 {
+      width: 78vw;
+      margin: auto;
+      margin-left: 3px;
+    }
+    #row5 {
+      width: 78vw;
+      margin: auto;
+      margin-top: 20px;
+      margin-left: 3px;
+    }
+    #row6 {
+      width: 78vw;
+      margin: auto;
+      margin-top: 20px;
+      margin-left: 3px;
+    }
+  }
+  
+  @media only screen and (min-height: 1000px) {
+    #navbar {
+      height: 10vh;
+    }
+    #container1::before {
+      height: 39vh;
+    }
+    #container1 {
+      height: 44vh;
+    }
+  }
